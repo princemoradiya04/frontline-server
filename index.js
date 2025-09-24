@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://frontline-client.vercel.app", "http://localhost:5173"],
+    origin: ["https://frontline-client-two.vercel.app", "http://localhost:5173"],
   })
 );
 app.use(express.json());
